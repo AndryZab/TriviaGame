@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4fc3e2d7ee517448c239d5fa1b3add, type: 3}
+  m_Name: TriviaDataLevel1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What is the capital of France?
+    answers:
+    - answerText: Paris
+      isCorrect: 1
+    - answerText: London
+      isCorrect: 0
+    - answerText: Berlin
+      isCorrect: 0
+    - answerText: Madrid
+      isCorrect: 0
+  - questionText: Which element has the chemical symbol 'O'?
+    answers:
+    - answerText: Gold
+      isCorrect: 0
+    - answerText: Oxygen
+      isCorrect: 1
+    - answerText: Silver
+      isCorrect: 0
+    - answerText: Hydrogen
+      isCorrect: 0
+  - questionText: Who wrote 'Harry Potter'?
+    answers:
+    - answerText: J.R.R. Tolkien
+      isCorrect: 0
+    - answerText: J.K. Rowling
+      isCorrect: 1
+    - answerText: Stephenie Meyer
+      isCorrect: 0
+    - answerText: Margaret Atwood
+      isCorrect: 0
+  - questionText: Which planet is the largest in the Solar System?
+    answers:
+    - answerText: Earth
+      isCorrect: 0
+    - answerText: Jupiter
+      isCorrect: 1
+    - answerText: Saturn
+      isCorrect: 0
+    - answerText: Mars
+      isCorrect: 0
+  - questionText: How many continents are there on Earth?"
+    answers:
+    - answerText: Five
+      isCorrect: 0
+    - answerText: Six
+      isCorrect: 0
+    - answerText: Seven
+      isCorrect: 1
+    - answerText: Eight
+      isCorrect: 0
